@@ -1,0 +1,26 @@
+# Dependencies, build products, and test output
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Credentials and machine-local files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Keep source-controlled Spec Kit skills, but exclude local agent authentication.
+.agents/auth.json
+.agents/credentials.json
+.agents/sessions/
+.codex/
